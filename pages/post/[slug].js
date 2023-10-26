@@ -10,7 +10,8 @@ import {
   Comments,
   PostWidget,
   Categories,
-} from "../../components";
+  Loader,
+} from "@/components";
 
 const PostDetails = ({ post }) => {
   const router = useRouter();
