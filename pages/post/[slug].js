@@ -10,7 +10,7 @@ import {
   CommentsForm,
   Loader,
 } from "@/components";
-import { getPosts, getPostDetails } from ".@/services";
+import { getPosts, getPostDetails } from "@/services";
 // import { AdjacentPosts } from '../../sections';
 
 const PostDetails = ({ post }) => {
