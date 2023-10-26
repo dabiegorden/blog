@@ -1,5 +1,5 @@
 import React from "react";
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 
 import { getPosts, getPostDetails } from "../../services";
 
@@ -10,15 +10,14 @@ import {
   Comments,
   PostWidget,
   Categories,
-  Loader,
 } from "@/components";
 
 const PostDetails = ({ post }) => {
-  const router = useRouter();
+  // const router = useRouter();
 
-  if (router.isFallback) {
-    return <Loader />;
-  }
+  // if (router.isFallback) {
+  //   return <Loader />;
+  // }
 
   return (
     <>
